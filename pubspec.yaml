@@ -1,0 +1,38 @@
+name: musicplayer
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: 5.2.1
+  permission_handler: ^11.0.1
+  flutter_media_metadata: ^1.0.0
+  path_provider: ^2.1.2
+  file_picker: ^5.2.10
+  image_picker: ^1.0.8
+  shared_preferences: ^2.0.15
+  flutter_local_notifications: ^12.0.0
+  webview_flutter: ^4.2.2
+  audio_service: ^0.18.12
+  just_audio: ^0.9.36
+  flutter_foreground_task: ^4.0.5 
+  wakelock: ^0.6.2
+  android_intent_plus: ^5.3.0
+  device_info_plus: ^8.0.0
+  workmanager: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/default_cover.png

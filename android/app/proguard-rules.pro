@@ -1,0 +1,3 @@
+-keep class android.webkit.** { *; }
+-keep class com.google.android.** { *; }
+-keep class org.chromium.** { *; }
